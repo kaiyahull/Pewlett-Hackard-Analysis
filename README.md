@@ -9,11 +9,11 @@ Four major points from the two deliverables:
 * In deliverable 1, we provided management with a list of all employees who are soon reaching retirement age (birth dates between 1/1/1952 and 12/31/1955) and their titles. Management can use the list `unique_titles` to determine which positions will vacant in the next few years and will need to be filled. 
 * The list `unique_titles` contains over 72,000 employees. This is a lot of information for management to parse through. To give them a synopsis of the data, we also created the list `retiring_titles` that shows the count of employees retiring by title. From this list, management can easily see that the highest number of employees retiring are senior engineers and senior staff. Since these are senior positions, they are not easily replaceable. Management will need to make sure there are trained replacements able to fill these roles. 
 
-<img src="images/unique_titles_count.png" width="150" height="150">
+<img src="images/unique_titles_count.png" width="200" height="250">
 
 **Total number of employees retiring as shown using `COUNT` to count the column `emp_no` in the `unique_titles` table**
 
-<img src="images/retiring_titles.png" width="100" height="100">
+<img src="images/retiring_titles.png" width="200" height="250">
 
 **Table showing the total number of employees retiring by title. Found by using `COUNT` to count the `emp_no` column and `GROUP BY` to group data by title**
 
