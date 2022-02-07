@@ -42,7 +42,7 @@ The analysis exposes us as analysts to creating an SQL database by using pgAdmin
 
 **Count of employees eligible for mentorship by title**
 
-## Additional Queries/Tables 
+### Additional Queries/Tables 
 An additional query that may be beneficial is to group the retiring and mentorship eligible employees by department. This will give management a better idea of the impact to each department the "silver tsunami" will have and can help department managers determine how many positions they will need to fill in the next few years. Department managers can also speak with employees eligible for the mentorship program about whether they would consider that option. This will also help management gauge the potential success of the program. 
 
 Similar to how we created a second table to show the count of employees retiring by title in deliverable 1, the same would be beneficial to present to management for the employees eligible for mentorship. To answer the question of whether there were enough mentor-eligible employees to help with upcoming employees, I created a table to the count of mentor-eligible employees per title. This helps to conceptualize a list of names and titles. 
