@@ -9,7 +9,7 @@ Four major points from the two deliverables:
 * In deliverable 1, we provided management with a list of all employees who are soon reaching retirement age (birth dates between 1/1/1952 and 12/31/1955) and their titles. Management can use the list `unique_titles` to determine which positions will vacant in the next few years and will need to be filled. 
 * The list `unique_titles` contains over 72,000 employees. This is a lot of information for management to parse through. To give them a synopsis of the data, we also created the list `retiring_titles` that shows the count of employees retiring by title. From this list, management can easily see that the highest number of employees retiring are senior engineers and senior staff. Since these are senior positions, they are not easily replaceable. Management will need to make sure there are trained replacements able to fill these roles. 
 
-<img src="images/unique_titles_count.png" width="300" height="400">
+<img src="images/unique_titles_count.png" width="300" height="450">
 
 **Total number of employees retiring as shown using `COUNT` to count the column `emp_no` in the `unique_titles` table**
 
@@ -30,11 +30,11 @@ Four major points from the two deliverables:
 * The "silver tsunami" will see a total of 72,458 positions that PH will need to fill. This is determined by using `COUNT` on the column containing employee numbers in the `unique_titles` table. To create the `unique_titles` table, we found all current employees who are eligible to retire by filtering birth dates between 1/1/1952 and 12/31/1955. We also used `DISTINCT ON` on the employee numbers to ensure we are not counting the same employee multiple times. The count of employees is reliable to show only the number of employees who are reaching retirement age and who are currently employed. 
 * There are not as many employees eligible to be mentors than there are retiring. For example, there are 25,916 Senior Engineers retiring and only 169 Senior Engineers eligible to be mentors. This would mean each mentor would need about 150 mentees to replace all positions. Most eligible mentors are Senior Staff, but it's not likely that the 569 Senior Staff eligible to be mentors would be able to help mentor replacements for all of the 24,926 Senior Staff positions that will soon be vacant. Also, this list is limited in that it only shows employees eligible to become mentors. Not everyone who is eligible will want to take on the role. 
 
-<img src="images/retiring_titles.png">
+<img src="images/retiring_titles.png" width="300" height="400">
 
 **Count of employees retiring by title**
 
-<img src="images/mentorship_eligibility_count.png">
+<img src="images/mentorship_eligibility_count.png" width="300" height="400">
 
 **Count of employees eligible for mentorship by title**
 
