@@ -9,11 +9,11 @@ Four major points from the two deliverables:
 * In deliverable 1, we provided management with a list of all employees who are soon reaching retirement age (birth dates between 1/1/1952 and 12/31/1955) and their titles. Management can use the list `unique_titles` to determine which positions will vacant in the next few years and will need to be filled. 
 * The list `unique_titles` contains over 72,000 employees. This is a lot of information for management to parse through. To give them a synopsis of the data, we also created the list `retiring_titles` that shows the count of employees retiring by title. From this list, management can easily see that the highest number of employees retiring are senior engineers and senior staff. Since these are senior positions, they are not easily replaceable. Management will need to make sure there are trained replacements able to fill these roles. 
 
-<img src="images/unique_titles_count.png">
+<img src="images/unique_titles_count.png" width="150" height="150">
 
 **Total number of employees retiring as shown using `COUNT` to count the column `emp_no` in the `unique_titles` table**
 
-<img src="images/retiring_titles.png">
+<img src="images/retiring_titles.png" width="100" height="100">
 
 **Table showing the total number of employees retiring by title. Found by using `COUNT` to count the `emp_no` column and `GROUP BY` to group data by title**
 
@@ -31,9 +31,11 @@ Four major points from the two deliverables:
 * There are not as many employees eligible to be mentors than there are retiring. For example, there are 25,916 Senior Engineers retiring and only 169 Senior Engineers eligible to be mentors. This would mean each mentor would need about 150 mentees to replace all positions. Most eligible mentors are Senior Staff, but it's not likely that the 569 Senior Staff eligible to be mentors would be able to help mentor replacements for all of the 24,926 Senior Staff positions that will soon be vacant. Also, this list is limited in that it only shows employees eligible to become mentors. Not everyone who is eligible will want to take on the role. 
 
 <img src="images/retiring_titles.png">
+
 **Count of employees retiring by title**
 
 <img src="images/mentorship_eligibility_count.png">
+
 **Count of employees eligible for mentorship by title**
 
 An additional query that may be beneficial is to group the retiring and mentorship eligible employees by department. This will give management a better idea of the impact to each department the "silver tsunami" will have and can help department managers determine how many positions they will need to fill in the next few years. Department managers can also speak with employees eligible for the mentorship program about whether they would consider that option. This will also help management gauge the potential success of the program. 
